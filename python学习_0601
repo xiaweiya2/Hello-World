@@ -1,0 +1,7 @@
+##data_frame格式选取指定列名，类似于sql加上where条件
+df.loc[:,['a','b']][df[c] == '12']    
+# select a,b from df where c = '12'
+
+
+#自定义x、y轴长度和标签
+xticks，yticks
